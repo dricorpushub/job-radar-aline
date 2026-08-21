@@ -1,4 +1,4 @@
-name: JobRadar
+name: .github/workflows/jobradar.yml
 
 on:
   schedule:
