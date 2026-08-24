@@ -1,8 +1,9 @@
 """Perfil profissional da Aline Canedo Vergineli.
 
-Prioriza relacionamento e gestão de clientes em tecnologia, trabalho remoto
-no Brasil e híbrido em Curitiba. Exclui funções de prospecção pura e trabalho
-presencial integral sempre que o card informa a modalidade.
+Prioriza vendas consultivas, gestão de contas e relacionamento com clientes.
+Aceita trabalho remoto no Brasil e híbrido somente em Curitiba. Exclui
+prospecção pura, trabalho presencial integral e consultoria técnica/funcional
+SAP, mantendo abertas as oportunidades comerciais em empresas SAP/ERP.
 """
 
 KEYWORDS_CARGO_FORTE_ALINE = [
@@ -14,6 +15,7 @@ KEYWORDS_CARGO_FORTE_ALINE = [
     "Especialista em Customer Success",
     "Analista de Customer Success",
     "Analista de Sucesso do Cliente",
+    "Customer Success",
     "Account Manager",
     "Gerente de Contas",
     "Executivo de Contas",
@@ -21,6 +23,15 @@ KEYWORDS_CARGO_FORTE_ALINE = [
     "Key Account Manager",
     "Key Account",
     "Gerente de Contas Estratégicas",
+    "Account Executive",
+    "Sales Executive",
+    "Executivo Comercial",
+    "Executiva Comercial",
+    "Executivo de Vendas",
+    "Executiva de Vendas",
+    "Executivo de Negócios",
+    "Executiva de Negócios",
+    "Inside Sales",
     "Gerente de Parceiros",
     "Partner Success Manager",
     "Partner Account Manager",
@@ -37,9 +48,6 @@ KEYWORDS_CARGO_FORTE_ALINE = [
     "Business Consultant",
     "Consultor ERP",
     "Consultora ERP",
-    "Consultor SAP SD",
-    "Consultora SAP SD",
-    "SAP SD Consultant",
     "Sales Operations",
     "Sales Ops",
     "Sales Enablement",
@@ -56,11 +64,6 @@ KEYWORDS_CARGO_FORTE_ALINE = [
 KEYWORDS_CARGO_AMBIGUO_ALINE = [
     "Business Analyst",
     "Analista de Negócios",
-    "Executivo Comercial",
-    "Executiva Comercial",
-    "Executivo de Vendas",
-    "Executiva de Vendas",
-    "Inside Sales",
     "Consultor Comercial",
     "Consultora Comercial",
 ]
@@ -106,6 +109,15 @@ TERMOS_BLOQUEADOS_TITULO_ALINE = [
     "Porta a Porta",
     "Door to Door",
     "Telemarketing",
+    "Consultor SAP",
+    "Consultora SAP",
+    "SAP Consultant",
+    "SAP Functional Consultant",
+    "SAP Technical Consultant",
+    "Consultor Funcional SAP",
+    "Consultora Funcional SAP",
+    "Consultor Técnico SAP",
+    "Consultora Técnica SAP",
 ]
 
 CIDADES_ALINE = ["Remoto", "Curitiba"]
@@ -119,6 +131,14 @@ TERMOS_PRIORITARIOS_ALINE = [
     "account manager",
     "gerente de contas",
     "executivo de contas",
+    "account executive",
+    "executivo de vendas",
+    "executiva de vendas",
+    "executivo comercial",
+    "executiva comercial",
+    "executivo de negócios",
+    "executiva de negócios",
+    "inside sales",
     "key account manager",
     "gerente de parceiros",
     "customer delivery manager",
@@ -126,7 +146,6 @@ TERMOS_PRIORITARIOS_ALINE = [
     "consultor de negócios",
     "sales operations",
     "sales enablement",
-    "consultor sap sd",
 ]
 TERMOS_POR_CICLO_ALINE = 12
 
